@@ -3,8 +3,9 @@ title: "Billing"
 subtitle: Payment Methods
 description: Learn how to manage the credit cards used to pay for your account.
 contenttype: [guide]
+innav: [false]
 categories: [billing]
-newcms: [--]
+cms: [--]
 audience: [business]
 product: [--]
 integration: [--]
@@ -46,6 +47,11 @@ To add a payment method:
 
 1. Enter the card information, then click **Add New Card**.
 
+<Alert title="Note" type="info" >
+
+The email address you enter here is the address invoices will be sent to.
+
+</Alert>
 
 ### Update Personal Payment Method
 
@@ -58,6 +64,12 @@ To add a payment method:
 1. Click **Actions**, then click **Edit**.
 
 1. Update the card information, then click **Save New Changes**.
+
+<Alert title="Note" type="info" >
+
+The email address you enter here is the address invoices will be sent to.
+
+</Alert>
 
 ### Delete Personal Payment Method
 

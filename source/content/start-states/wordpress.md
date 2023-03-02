@@ -1,23 +1,29 @@
 ---
 title: Pantheon WordPress Upstream
 description: Release notes and customizations to the Pantheon WordPress Upstream
-cms: "wordpress"
 tags: [code, site, upstreams]
 showtoc: true
 permalink: docs/start-states/wordpress
 editpath: start-states/wordpress.md/
 reviewed: "2022-06-01"
 contenttype: [doc]
-categories: [overview]
-newcms: [wordpress]
+innav: [true]
+categories: [custom-upstreams]
+cms: [wordpress]
 audience: [agency, business, development]
-product: [custom-upstream]
+product: [custom-upstreams]
 integration: [--]
 ---
 
 For the most part, [Pantheon's WordPress upstream](https://github.com/pantheon-systems/WordPress) follows [WordPress core](https://wordpress.org/news/category/releases/) one-to-one. This document is intended to provide further context to platform-specific changes in Pantheon's WordPress upstream.
 
 ## Latest Release
+
+### 2023-01-17
+
+<a name="20230117" class="release-update"></a>Fixes a bug where a fatal error for an undefined variable was thrown on PHP 8+.
+
+A previous update that added a loader to pull in the pantheon-mu-plugin introduced an undefined variable which is a fatal error in PHP 8+. This update resolves the issue and fixes the mu-plugin loader. This may introduce merge conflicts if you have made changes to the `loader.php` file in your site repository.
 
 ### 2022-11-01
 
@@ -69,9 +75,9 @@ Pantheon will automatically resolve these conflicts when you click the `Apply Up
 
 ### 2022-04-26
 
-#### <a name="20220426-3" class="release-update"></a>Re-enable WP-Cron for site networks
+#### <a name="20220426-3" class="release-update"></a>Re-enable WP-Cron for Multisites
 
-Pantheon Cron does not support WordPress Site Network installations, also known as WordPress Multisite, due to the unpredictable customizations to domains or subdirectories and their mapping to subsites. This change reenabled WP-Cron for WordPress Site Networks. You can read more about WP-Cron for WordPress Site Networks [here](/wordpress-cron#wordpress-site-networks).
+Pantheon Cron does not support WordPress Multisite installations due to the unpredictable customizations to domains or subdirectories and their mapping to subsites. This change reenabled WP-Cron for WordPress Multisite. You can read more about WP-Cron for WordPress Multisite [here](/guides/wordpress-developer/wordpress-cron#wordpress-site-networks).
 
 #### <a name="20220426-2" class="release-update"></a>Add documentation to readme outlining branches
 
@@ -85,16 +91,16 @@ When this constant is not set, WordPress writes and then deletes a temporary fil
 
 #### <a name="20220405-2" class="release-update"></a>Allow DISABLE_WP_CRON to be overridden
 
-Allowed customers to override DISABLE_WP_CRON by defining this constant in their wp-config.php before wp-config-pantheon.php is required. Read more about enabling WP-Cron [here](/wordpress-cron#enable-wp-cron).
+Allowed customers to override DISABLE_WP_CRON by defining this constant in their wp-config.php before wp-config-pantheon.php is required. Read more about enabling WP-Cron [here](/guides/wordpress-developer/wordpress-cron#enable-wp-cron).
 
 #### <a name="20220405-1" class="release-update"></a>Disable WP-Cron
 
-Disabled `wp-cron.php` from running on every page load and rely on Pantheon to run cron via WP-CLI. Read more about WP-Cron [here](/wordpress-cron).
+Disabled `wp-cron.php` from running on every page load and rely on Pantheon to run cron via WP-CLI. Read more about WP-Cron [here](/guides/wordpress-developer/wordpress-cron).
 
 ## Related Links
 
 - [Pantheon Start States](/start-states)
 - [WordPress on Pantheon Quick Start Guide](/guides/wordpress-pantheon)
-- [WordPress Best Practices](/wordpress-best-practices)
+- [WordPress Best Practices](/guides/wordpress-developer/wordpress-best-practices)
 - [WordPress and Drupal Core Updates](/core-updates)
 - [WordPress Plugins and Themes with Known Issues](/plugins-known-issues)

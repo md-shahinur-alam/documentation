@@ -9,8 +9,9 @@ tags: [reference, cli, local, terminus, workflow]
 permalink: docs/terminus/scripting
 anchorid: scripting
 contenttype: [guide]
-categories: [cli, create]
-newcms: [drupal, wordpress]
+innav: [false]
+categories: [cli]
+cms: [drupal, wordpress]
 audience: [development]
 product: [terminus]
 integration: [--]
@@ -136,5 +137,5 @@ echo "Site PHP information has been saved to $CSV_FILE"
 ## More Resources
 
 - [Install Quicksilver Scripts](/guides/quicksilver/install-script)
-- [Cron for WordPress](/wordpress-cron)
+- [Cron for WordPress](/guides/wordpress-developer/wordpress-cron)
 - [Cron for Drupal](/drupal-cron)

@@ -9,8 +9,9 @@ showtoc: true
 permalink: docs/guides/fastly-pantheon/fastly-amazon-s3
 anchorid: fastly-amazon-s3
 contenttype: [guide]
-categories: [--]
-newcms: [--]
+innav: [false]
+categories: [cache]
+cms: [--]
 audience: [development]
 product: [--]
 integration: [fastly]
@@ -38,7 +39,7 @@ Follow the steps below to use Amazon S3 with your Fastly account on Pantheon.
 
 ## More Resources
 
-- [AWS S3 Setup for WordPress](/guides/wordpress-configurations/wordpress-s3)
+- [AWS S3 Setup for WordPress](/guides/wordpress-developer/wordpress-s3)
 
 - [AWS S3 Setup for Drupal](/drupal-s3)
 

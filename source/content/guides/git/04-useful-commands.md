@@ -1,5 +1,5 @@
 ---
-title: Useful Git Commands
+title: Git on Pantheon Guide
 subtitle: Useful Git Commands
 description: Review a list of useful commands to help you get started with Git on Pantheon.
 contributors:  [whitneymeredith]
@@ -9,8 +9,9 @@ showtoc: true
 permalink: docs/guides/git/useful-commands
 anchorid: useful-commands
 contenttype: [guide]
+innav: [false]
 categories: [git]
-newcms: [drupal, wordpress]
+cms: [drupal, wordpress]
 audience: [development]
 product: [--]
 integration: [git]

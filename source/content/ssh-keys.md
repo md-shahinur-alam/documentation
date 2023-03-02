@@ -4,8 +4,9 @@ description: Understand how to generate SSH keys to configure Git, SFTP, or Drup
 tags: [security, dashboard, ssh]
 reviewed: "2022-03-04"
 contenttype: [doc]
-categories: [user-authentication, git, config]
-newcms: [drupal, wordpress]
+innav: [true]
+categories: [security, git, config]
+cms: [drupal, wordpress]
 audience: [development]
 product: [--]
 integration: [ssh, drush, sftp]
@@ -40,7 +41,7 @@ Pantheon supports ECDSA and RSA SSH keys. Currently, we do not support `ed25519`
 1. Open your terminal and enter the following command to generate a key:
 
    ```bash{promptUser: user}
-   ssh-keygen
+   ssh-keygen -t rsa
    ```
 
   This command works on Linux, MacOS, and Windows 10.

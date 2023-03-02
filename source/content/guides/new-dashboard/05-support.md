@@ -3,8 +3,9 @@ title: The New Pantheon Dashboard
 subtitle: Support and Provide Feedback
 description: A streamlined Support experience for your Workspace.
 contenttype: [guide]
+innav: [false]
 categories: [dashboard]
-newcms: [--]
+cms: [--]
 audience: [development, marketing, sysadmin, agency, business]
 product: [dashboard]
 integration: [--]

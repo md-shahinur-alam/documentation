@@ -3,8 +3,9 @@ title: WordPress Configurations Guide
 subtitle: Pantheon-maintained WordPress Plugins
 description: Pantheon plugins for WordPress.
 contenttype: [guide]
+innav: [false]
 categories: [config]
-newcms: [wordpress]
+cms: [wordpress]
 audience: [development]
 product: [--]
 integration: [--]
@@ -71,7 +72,7 @@ provides support for SAML Authentication. The plugin comes bundled with the OneL
 
 ## WP Solr
 
-[WP Solr](https://wordpress.org/plugins/solr-power/) enables the Pantheon Search (Solr) search engine for your WordPress website. Refer to [Enable Pantheon Search for WordPress](/guides/wordpress-configurations/wordpress-solr) for more information.
+[WP Solr](https://wordpress.org/plugins/solr-power/) enables the Pantheon Search (Solr) search engine for your WordPress website. Refer to [Enable Pantheon Search for WordPress](/guides/wordpress-developer/wordpress-solr) for more information.
 
 ## More Resources
 

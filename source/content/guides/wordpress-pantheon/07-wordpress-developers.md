@@ -3,8 +3,9 @@ title: WordPress on Pantheon Quick Start Guide
 subtitle: WordPress on Pantheon for Developers
 description: Develop efficiently with WordPress on Pantheon.
 contenttype: [guide]
-categories: [create]
-newcms: [wordpress]
+innav: [false]
+categories: [cms]
+cms: [wordpress]
 audience: [development]
 product: [--]
 integration: [--]
@@ -29,7 +30,7 @@ Pantheon supports [running WordPress as an API](/headless) (Application Programm
 
 ## WordPress on Pantheon Developer Best Practices
 
-Review our [WordPress Best Practices](/wordpress-best-practices) doc for suggestions, tips, and best practices for developing and managing WordPress sites on the Pantheon platform.
+Review our [WordPress Best Practices](/guides/wordpress-developer/wordpress-best-practices) doc for suggestions, tips, and best practices for developing and managing WordPress sites on the Pantheon platform.
 
 ## WordPress Core Updates
 
@@ -37,7 +38,7 @@ Review our [WordPress Core Updates](/core-updates) doc for instructions on how t
 
 ## Testing WordPress Core Updates
 
-Review our [Testing WordPress Core Development Versions](/wordpress-development-versions) doc to test development versions of WordPress by pushing updates through the WordPress Dashboard or via Git.
+Review our [Testing WordPress Core Development Versions](/guides/wordpress-developer/wordpress-development-versions) doc to test development versions of WordPress by pushing updates through the WordPress Dashboard or via Git.
 
 ## Environment Specific Configuration for WordPress Sites
 
@@ -53,7 +54,7 @@ Review our [Managing Custom Code for WordPress with Plugins](/guides/wordpress-c
 
 ## AWS S3 Setup for WordPress
 
-Amazon Web Services (AWS) offers Simple Storage Service (S3) for scalable storage and content distribution, which can be integrated with sites running on Pantheon. Pantheon already offers content distribution through the [Global CDN](/guides/global-cdn), but S3 is a good option for addressing issues with [highly populated directories](/guides/platform-considerations/files-directories#highly-populated-directories) or serving [large files](/guides/platform-considerations/files-directories#large-files).
+Amazon Web Services (AWS) offers Simple Storage Service (S3) for scalable storage and content distribution, which can be integrated with sites running on Pantheon. Pantheon already offers content distribution through the [Global CDN](/guides/global-cdn), but S3 is a good option for addressing issues with [highly populated directories](/guides/filesystem/large-files) or serving large files.
 
 ## WordPress and PHP Sessions
 

@@ -1,5 +1,5 @@
 ---
-title: Resolve Git Merge Conflicts
+title: Git on Pantheon Guide
 subtitle: Resolve Merge Conflicts
 description: Learn how to resolve conflicts in your site code base. 
 tags: [git, local, webops]
@@ -9,8 +9,9 @@ showtoc: true
 permalink: docs/guides/git/resolve-merge-conflicts
 anchorid: resolve-merge-conflicts
 contenttype: [guide]
+innav: [false]
 categories: [git]
-newcms: [drupal, wordpress]
+cms: [drupal, wordpress]
 audience: [development]
 product: [--]
 integration: [git]
@@ -40,6 +41,16 @@ This is safe to run if you don't have your own changes in any of the conflicting
 
 </Tab>
 
+<Tab title="Drupal (Latest)" id="d#">
+
+  ```bash{promptUser: user}
+  git remote add pantheon-drupal-10 https://github.com/pantheon-upstreams/drupal-composer-managed.git
+  # resolve conflicts
+  git push origin master
+  ```
+
+</Tab>
+
 <Tab title="WordPress" id="wp">
 
   ```bash{promptUser: user}
@@ -50,7 +61,7 @@ This is safe to run if you don't have your own changes in any of the conflicting
 
 </Tab>
 
-<Tab title="WordPress Site Network" id="wp-network">
+<Tab title="WordPress Multisite" id="wp-network">
 
   ```bash{promptUser: user}
   git pull -Xtheirs https://github.com/pantheon-systems/wordpress-network.git master

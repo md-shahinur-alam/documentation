@@ -3,8 +3,9 @@ title: Object Cache (formerly Redis)
 subtitle: Use the Redis Command Line
 description: Use the Redis Command Line to manage Object Cache.
 contenttype: [guide]
+innav: [false]
 categories: [cache]
-newcms: [--]
+cms: [--]
 audience: [development]
 product: [--]
 integration: [--]

@@ -11,8 +11,9 @@ editpath: frontend-performance/10-metrics.md
 image: CDN-speedTest-docs-guide
 reviewed: "2020-10-10"
 contenttype: [guide]
+innav: [false]
 categories: [optimize]
-newcms: [drupal, wordpress]
+cms: [drupal, wordpress]
 audience: [development]
 product: [--]
 integration: [modules, plugins]

@@ -3,8 +3,9 @@ title: Migrate a Site From Acquia to Pantheon Using Guided Migration
 subtitle: Troubleshooting
 description: Resolve issues that may occur during migration.
 contenttype: [guide]
-categories: [migrate]
-newcms: [drupal]
+innav: [false]
+categories: [migrate, troubleshooting]
+cms: [drupal]
 audience: [development]
 product: [--]
 integration: [--]

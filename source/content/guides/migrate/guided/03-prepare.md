@@ -3,8 +3,9 @@ title: Migrate Sites to Pantheon Using Guided Migration
 subtitle: Prepare
 description: Get your site ready for migration.
 contenttype: [guide]
+innav: [false]
 categories: [migrate]
-newcms: [drupal, wordpress]
+cms: [drupal, wordpress]
 audience: [development]
 product: [--]
 integration: [--]

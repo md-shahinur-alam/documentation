@@ -11,8 +11,9 @@ editpath: build-tools/03-pr-workflow.md
 image: buildToolsGuide-thumb
 reviewed: "2020-05-08"
 contenttype: [guide]
+innav: [false]
 categories: [git]
-newcms: [--]
+cms: [--]
 audience: [development]
 product: [--]
 integration: [--]
